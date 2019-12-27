@@ -17,27 +17,96 @@
                     <ul>
                         <li><a href="https://github.com/alexfc96"><img src="/images/github-logo.png" class="social_media_image" alt="github-icon-logo"><br>GitHub</img></a></li> <!--Linkaremos una imagen con la cuenta de Git y otra para Insta-->
                         <li><a href="https://www.instagram.com/alexfc96/"><img src="/images/instagram-logo.png" class="social_media_image" alt="instagram-icon-logo"><br>InstaGram</img></a></li>
+                        <li><a href="https://es.linkedin.com/"><img src="/images/linkedin-logo.png" class="social_media_image" alt="linkedin-icon-logo"><br>LinkedIn</img></a></li> <!--Recordar vincular la cuenta en el futuro-->
                     </ul>
                 </nav>
                 <nav class="intern-links">
                     <ul>
-                        <li><a href="#">Sobre mí</a></li> <!--Linkaremos a un punto de nuestra web-->
-                        <li><a href="#">Proyectos</a></li>
-                        <li><a href="#">Mi CV</a></li>
-                        <li><a href="#">Contacto</a></li> <!--Decidir si será otra pagina o te redirigirá a la propua-->
+                        <li><a href="#about-me">Sobre mí</a></li> <!--Linkaremos a un punto de nuestra web-->
+                        <li><a href="#my-projects">Proyectos</a></li>
+                        <li><a href="#my-cv">Mi CV</a></li>
+                        <li><a href="/contact.html">Contacto</a></li> <!--Decidir si será otra pagina o te redirigirá a la propua-->
                     </ul>
                 </nav>
             </header>
-            
-            <h1>Alex Fernández</h1>
-            
+            <main class="main_content">
+                <div id="image-presentation">
+                    <a name="about-me"></a>
+                    <div class="personal_image">
+                        <img id="my-personal-photo" src="/images/perfil.png" alt="my-personal-photo"></img>
+                    </div>
+                    <div class="presentation">
+                        <div class="presentation_text">
+                        <p>Hola,</p>
+                        <h1>soy Alex Fernández Cánovas</h1>
+                        <p>y estoy estudiando para ser Desarrollador Web Full Stack en la escuela IronHack.</p><br>
+                        <p> Resido en Barcelona y tengo 23 años.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="personal-info">
+                    <div class="info_text">
+                        <p> Soy una persona creativa, proactiva y con ganas siempre de seguir aprendiendo.</p><br>
+                        <p> Me apunté a IronHack con la meta de llevar mi nivel de programación al siguiente nivel.</p><br>
+                        <p> Mis aptitudes són: </p>
+                    </div>
+                    <div class="personal_icons">
+                        <div class="icon_description">
+                            <img src="/images/language.png" class="main_icons" alt="languages-icon" />
+                            <ul>
+                                <li>Castellano</li>
+                                <li>Catalán</li>
+                                <li>Inglés</li>
+                            </ul>      
+                        </div> 
 
+                        <div class="icon_description">
+                            <img src="/images/thinking.png" class="main_icons" alt="worker-icon" />   
+                            <ul>
+                                <li>Colaborativo</li>
+                                <li>Proactivo</li>
+                                <li>Autodidacta</li>
+                            </ul>      
+                        </div> 
+                        
+                        <div class="icon_description">
+                            <img src="/images/code.png" class="main_icons" alt="code-icon" />  
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>Python</li>
+                            </ul>      
+                        </div> 
+                    </div>
+                    <hr class="separate-content">
+                    <div class="my-personal-projects">
+                        <a name="my-projects"></a>
+                        <div class="projects_text">
+                            <p> En los siguientes enlaces podrás encontrar algunos de mis proyectos realizados:</p><br>
+                        </div>
+                        <div class="my_projects">
+                            <ul>
+                                <li><a href="https://github.com/alexfc96/lab-bootstrap-cloning-revera"> <img class="projects_image" src="/images/revera.png" alt="revera-page" /><br> Cloning revera</a></li>
+                                <li><a href="https://github.com/alexfc96/lab-css-flexbox-slack"> <img class="projects_image" src="/images/slack_project.png" alt="slack-page" /><br> Cloning slack</a></li>
+                                <li><a href="https://github.com/alexfc96/lab-bootstrap-cloning-revera"> <img class="projects_image" src="/images/revera.png" alt="revera-page" /><br> Cloning revera</a></li>
+                                <li><a href="https://github.com/alexfc96/lab-css-flexbox-slack"> <img class="projects_image" src="/images/slack_project.png" alt="slack-page" /><br> Cloning slack</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="link-to-my-cv">
+                        <p>Si estás interesado en mi CV:</p><br>
+                        <a href="/documents/Alex Fernandez Canovas CV.pdf" download="Alex Fernandez Canovas CV"  name="my-cv"> <input type="button" value="Descargar CV" class="cv_link"></a>
+                        <p class="cv_text">(También puedes encontrar mi LinkedIn en la parte superior de la web)</p>
 
-
+                    </div>
+                </div>
+            </main>
         </div>
-        <div class="footer">
-
-
-        </div>
+        <footer>
+            <div class="footer_text">
+                <p>Web creada por:</p> <br>
+                <p>Alex Fernández Cánovas</p>
+            </div>
+        </footer>
     </body>
 </html>
