@@ -1,0 +1,78 @@
+/*colors:
+colors for the square links : background-color: #5686EA;
+background color for the footer :#F4F3F4
+background color for the content body:#F4F3F4
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content{
+    background:#F4F3F4;
+}
+.myName{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+.links-contact{
+    display: flex;
+    flex-direction: column;
+    background: #3B4456;
+    color: white;
+}
+.links-contact a {
+    text-decoration: none;
+    color: white;
+}
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+.social-media-links ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.social-media-links li{
+    margin-right: 20px;
+}
+.social_media_image{
+    height: 36px;
+    margin: 0 0 8px 13px;
+}
+.intern-links{
+    display: flex;
+    flex-direction: row;
+}
+.intern-links ul{
+    display: flex;
+    flex-direction: row;
+}
+.intern-links li{
+    margin: 5% 15%;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;  
+    border: solid 1px;
+    background-color: #5686EA;
+    border-radius: 10px;
+}
+.intern-links a{
+    width: 80px;
+    height: 26px;
+    text-align: center;
+}
+
+@media (max-width: 768px) { /*hasta tablets*/
+    .content{
+        /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    }
+}
