@@ -15,7 +15,7 @@ body{
 .content{
     background:#F4F3F4;
 }
-.myName{
+.my-name{
     font-size: 30px;
     font-weight: bold;
     padding-top: 12px;
@@ -40,13 +40,15 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: 20px;
+
 }
 .social-media-links li{
     margin-right: 20px;
 }
 .social_media_image{
     height: 36px;
-    margin: 0 0 8px 13px;
+    margin: 0 0 8px 24px;
+    
 }
 .intern-links{
     display: flex;
@@ -115,11 +117,14 @@ body{
 }
 .personal_icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 0 35%;
 }
 .icon_description{
     display: flex;
     flex-direction: column;
+    width: 30%;
+    margin: 8% 12% 0;
 }
 .icon_description ul{
     list-style-type: disc;
@@ -129,6 +134,7 @@ body{
 }
 .main_icons{
     margin-top: 20px;
+    width: 80%;
     height: 50px;
 }
 .separate-content{
@@ -191,16 +197,17 @@ footer{
     margin: 2% 5%;
 }
 .contact-me{
-    padding-bottom: 30%;
+    padding-bottom: 7.5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.contact-text{
+    margin: auto;
+    padding: 9% 9%;
+}
 
-@media (max-width: 375px) { /*hasta tablets*/
-    .content{
-        
-    }
+@media (max-width: 375px) { 
     .myName{
         font-size: 20px;
         font-weight: bold;
@@ -213,20 +220,30 @@ footer{
         display: flex;
         justify-content: flex-end;
         padding: 50px 0 79px;
-
+    }
+    .personal_icons{
+        display: flex;
+        justify-content: center;
+        margin: 0 35%;
     }
 }
-@media (max-width: 768px) { /*hasta tablets*/
-    .content{
-        /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+@media (max-width: 425px) {
+    .personal_icons{
+        display: flex;
+        justify-content: center;
+        margin: 0 15%;
     }
 }
-
 @media screen and (min-width: 1024px){
     .content{
         /*font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
         font-family: 'Ubuntu', sans-serif;
         font-size: 22px;
+    }
+    .main_icons{
+        margin-top: 20px;
+        width: 60%;
+        height: 90px;
     }
 }
 @media screen and (min-width: 1440px){
@@ -238,5 +255,10 @@ footer{
     .projects_image{
         height: 280px;
         width: 75%;
+    }
+    .main_icons{
+        margin-top: 20px;
+        width: 50%;
+        height: 60px;
     }
 }
